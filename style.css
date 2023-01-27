@@ -10,6 +10,25 @@
   box-sizing: border-box;
 }
 
+.logo:hover {
+  filter: invert(11%) sepia(86%) saturate(4651%) hue-rotate(322deg) brightness(91%) contrast(102%);
+  transition-duration: .81s;
+  transition-timing-function: ease-in-out;
+  scale: 1.05;
+  transform: translateX(-.72rem);
+  transform-origin:left;
+  letter-spacing: .70rem;
+}
+
+
+/* h1:hover {
+  filter: invert(11%) sepia(86%) saturate(4651%) hue-rotate(322deg) brightness(91%) contrast(102%);
+  transition-duration: .25s;
+  transition-timing-function: ease;
+  transform-origin:left;
+  transform: translateY(-.75rem);
+} */
+
 :root {
   --gray: #1c1c1c;
   --dark-green: #ff0077;
@@ -21,6 +40,9 @@
     font-family: "Neo Noir", serif;
     letter-spacing: .5rem;
     font-size: 2rem;
+    transition-duration: .81s;
+    transition-timing-function: ease-in-out;
+    transform: translateX(-1rem);
 }
 
 body {
@@ -51,7 +73,7 @@ a {
 }
 
 header {
-  padding: 2em 3em;
+  padding: 2em 4em;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -89,7 +111,12 @@ section {
 section h4 {
   opacity: 0.8;
 }
-
+.nav-plus{
+  display: none;
+  width: 2rem;
+  justify-self: right;
+  align-items: center;
+}
 li.active {
   color: var(--dark-green);
   border-bottom: 1px solid var(--dark-green);
@@ -272,7 +299,7 @@ svg {
 } 
 
 .logo{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
   header ul {
@@ -288,7 +315,7 @@ svg {
 }
 
 header {
-    padding: 1em 2em;
+    padding: 2em 3em;
     display: grid;
     grid-template-columns: 1.5fr .5fr;
     align-items: center;
@@ -303,6 +330,33 @@ section h4 {
     padding-left: 2rem;
     font-size: .65rem;
 
+}
+
+.nav-plus{
+  display: grid;
+  width: 2rem;
+  justify-self: right;
+  align-items: center;
+  transition-duration: .85s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+.nav-plus img{
+  transition-duration: .85s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+
+.nav-plus img:hover{
+  filter: invert(11%) sepia(86%) saturate(4651%) hue-rotate(322deg) brightness(91%) contrast(102%);
+  transition-duration: .85s;
+  transition-timing-function: ease-in-out;
+  scale: 1.125;
+}
+
+header ul {
+  display: none;
 }
 
 }

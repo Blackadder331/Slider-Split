@@ -73,7 +73,7 @@ createApp({
     playFoward() {
       let tl = gsap.timeline({
         defaults: {
-          duration: 0.4,
+          duration: 0.3,
           ease: "sine.out"
         },
         onComplete: () => {
