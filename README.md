@@ -1,2 +1,3 @@
 # Slider-Split
-<img width="1636" alt="slider" src="https://user-images.githubusercontent.com/10698943/214990377-eafdc6c2-d827-42a3-941d-965d878216b1.png">
+
+<img width="1852" alt="cover" src="https://user-images.githubusercontent.com/10698943/215151241-2372d5bc-e594-465c-9183-7c5df3afe55c.png">
